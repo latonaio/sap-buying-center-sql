@@ -1,4 +1,4 @@
-CREATE TABLE `sap_buying_center_collection_data`
+CREATE TABLE `sap_buying_center_buying_center_collection_data`
 (
 	        `ObjectID`            varchar(70)    NOT NULL,
 			`BuyingCenterID`      varchar(35)    DEFAULT NULL,
@@ -9,7 +9,6 @@ CREATE TABLE `sap_buying_center_collection_data`
 			`Name`                varchar(255)   DEFAULT NULL,
 			`EntityLastChangedOn` varchar(130)   DEFAULT NULL,
 			`ETag`                varchar(130)   DEFAULT NULL,
-		PRIMARY KEY (`ObjectID`) 
+		PRIMARY KEY (`ObjectID`)
 	 ) ENGINE = InnoDB
 	 DEFAULT CHARSET = utf8mb4;
-				
